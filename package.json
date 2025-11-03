@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "truffle-config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "migrate:reset": "truffle migrate --reset",
+    "test": "truffle test",
+    "console": "truffle console"
   },
   "keywords": [],
   "author": "",
